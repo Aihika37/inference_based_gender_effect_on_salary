@@ -113,8 +113,7 @@ labels = ["0-2", "3-5", "6-10", "11-15", "16-20", "20+"]
 df_gender["Experience Band"] = pd.cut(df_gender["Years of Experience"], bins=bins, labels=labels)
 
 # Group by Job Title + Education Level + Experience Band + Gender
-grouped = df_gender.groupby(["Job Title", "Education Level", "Experience Band", "Gender"])
-["Salary"].mean().reset_index()
+grouped = df_gender.groupby(["Job Title", "Education Level", "Experience Band", "Gender"])["Salary"].mean().reset_index()
 
 # Pivot to create male-female matched groups
 paired = grouped.pivot_table(index=["Job Title", "Education Level", "Experience Band"],
