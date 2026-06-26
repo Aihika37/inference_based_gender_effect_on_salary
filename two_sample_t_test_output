@@ -1,0 +1,26 @@
+----- Sample Sizes -----
+Male count   : 3672
+Female count : 3013
+
+----- Descriptive Statistics -----
+Male mean salary   : 121389.87
+Female mean salary : 107889.00
+Male std dev       : 52092.73
+Female std dev     : 52723.61
+
+----- Welch Two-Sample t-Test -----
+t-statistic  : 10.473640
+Two-tailed p : 0.000000
+
+----- One-Tailed p-values -----
+Right-tailed p-value [H1: mu_male > mu_female] : 0.000000
+Left-tailed p-value  [H1: mu_male < mu_female] : 1.000000
+
+----- 95% Confidence Interval -----
+Mean difference : 13500.87
+95% CI          : (10973.94, 16027.81)
+
+----- Decision at alpha = 0.05 -----
+Two-tailed test: Reject H0
+Right-tailed test: Reject H0
+Left-tailed test: Fail to reject H0
