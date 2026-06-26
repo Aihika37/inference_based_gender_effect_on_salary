@@ -1,0 +1,227 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 Salary   R-squared:                       0.889
+Model:                            OLS   Adj. R-squared:                  0.885
+Method:                 Least Squares   F-statistic:                     259.2
+Date:                Fri, 26 Jun 2026   Prob (F-statistic):               0.00
+Time:                        17:42:16   Log-Likelihood:                -74838.
+No. Observations:                6685   AIC:                         1.501e+05
+Df Residuals:                    6484   BIC:                         1.514e+05
+Df Model:                         200                                         
+Covariance Type:            nonrobust                                         
+===================================================================================================================
+                                                      coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------------------
+const                                            1.983e+04   1.81e+04      1.097      0.273   -1.56e+04    5.53e+04
+Age                                              1039.2915    100.190     10.373      0.000     842.885    1235.698
+Years of Experience                              4084.8458    124.246     32.877      0.000    3841.283    4328.409
+Male                                             1487.8119    511.760      2.907      0.004     484.593    2491.031
+Education Level_Bachelor's Degree               -5.147e+04   1085.588    -47.412      0.000   -5.36e+04   -4.93e+04
+Education Level_High School                     -6.057e+04   2039.567    -29.700      0.000   -6.46e+04   -5.66e+04
+Education Level_Master's                        -5014.6347   1582.509     -3.169      0.002   -8116.874   -1912.396
+Education Level_Master's Degree                 -4.258e+04   1171.245    -36.356      0.000   -4.49e+04   -4.03e+04
+Education Level_PhD                             -3.597e+04   1398.759    -25.716      0.000   -3.87e+04   -3.32e+04
+Education Level_phD                             -1.004e+04    1.8e+04     -0.559      0.576   -4.53e+04    2.52e+04
+Job Title_Accountant                            -1.339e+04   2.53e+04     -0.529      0.596    -6.3e+04    3.62e+04
+Job Title_Administrative Assistant              -4.557e+04   2.19e+04     -2.081      0.038   -8.85e+04   -2635.053
+Job Title_Back end Developer                     7.343e+04   1.79e+04      4.092      0.000    3.83e+04    1.09e+05
+Job Title_Business Analyst                        107.4403   2.19e+04      0.005      0.996   -4.28e+04    4.31e+04
+Job Title_Business Development Manager           5681.5144   2.53e+04      0.224      0.823    -4.4e+04    5.53e+04
+Job Title_Business Intelligence Analyst          5805.6517   2.53e+04      0.229      0.819   -4.38e+04    5.55e+04
+Job Title_CEO                                     7.46e+04   2.53e+04      2.948      0.003     2.5e+04    1.24e+05
+Job Title_Chief Data Officer                     1.236e+05   2.53e+04      4.880      0.000    7.39e+04    1.73e+05
+Job Title_Chief Technology Officer               1.126e+05   2.53e+04      4.444      0.000    6.29e+04    1.62e+05
+Job Title_Content Marketing Manager              6.335e+04    1.8e+04      3.513      0.000     2.8e+04    9.87e+04
+Job Title_Copywriter                             -1.71e+04   2.53e+04     -0.676      0.499   -6.67e+04    3.25e+04
+Job Title_Creative Director                      4345.9195   2.53e+04      0.172      0.864   -4.53e+04     5.4e+04
+Job Title_Customer Service Manager              -2.922e+04   2.19e+04     -1.334      0.182   -7.22e+04    1.37e+04
+Job Title_Customer Service Rep                  -1.755e+04   2.53e+04     -0.694      0.488   -6.71e+04     3.2e+04
+Job Title_Customer Service Representative         2.81e+04   1.94e+04      1.449      0.147   -9911.847    6.61e+04
+Job Title_Customer Success Manager              -1.859e+04   2.53e+04     -0.735      0.462   -6.81e+04     3.1e+04
+Job Title_Customer Success Rep                  -1.094e+04   2.53e+04     -0.433      0.665   -6.05e+04    3.86e+04
+Job Title_Data Analyst                           6.531e+04   1.79e+04      3.648      0.000    3.02e+04       1e+05
+Job Title_Data Entry Clerk                      -1.081e+04   2.53e+04     -0.428      0.669   -6.04e+04    3.88e+04
+Job Title_Data Scientist                         9.294e+04   1.79e+04      5.179      0.000    5.78e+04    1.28e+05
+Job Title_Delivery Driver                        4.231e+04   1.97e+04      2.149      0.032    3717.818    8.09e+04
+Job Title_Developer                              2.203e+04   2.53e+04      0.871      0.384   -2.75e+04    7.16e+04
+Job Title_Digital Content Producer              -1.326e+04   2.53e+04     -0.525      0.600   -6.28e+04    3.63e+04
+Job Title_Digital Marketing Manager              5.656e+04   1.81e+04      3.128      0.002    2.11e+04     9.2e+04
+Job Title_Digital Marketing Specialist           4.951e+04   1.85e+04      2.676      0.007    1.32e+04    8.58e+04
+Job Title_Director                               4.796e+04   2.53e+04      1.892      0.058   -1723.490    9.76e+04
+Job Title_Director of Business Development       2.724e+04   2.53e+04      1.075      0.282   -2.24e+04    7.69e+04
+Job Title_Director of Data Science               1.043e+05   1.81e+04      5.764      0.000    6.88e+04     1.4e+05
+Job Title_Director of Engineering                5.171e+04   2.19e+04      2.357      0.018    8695.043    9.47e+04
+Job Title_Director of Finance                    2.734e+04    2.2e+04      1.245      0.213   -1.57e+04    7.04e+04
+Job Title_Director of HR                         5.026e+04    1.8e+04      2.785      0.005    1.49e+04    8.56e+04
+Job Title_Director of Human Capital              2.848e+04   2.53e+04      1.124      0.261   -2.12e+04    7.82e+04
+Job Title_Director of Human Resources            4.529e+04    2.2e+04      2.063      0.039    2259.212    8.83e+04
+Job Title_Director of Marketing                  6.514e+04    1.8e+04      3.615      0.000    2.98e+04       1e+05
+Job Title_Director of Operations                 3.127e+04   1.87e+04      1.668      0.095   -5469.197     6.8e+04
+Job Title_Director of Product Management         2.303e+04   2.53e+04      0.909      0.364   -2.67e+04    7.27e+04
+Job Title_Director of Sales                      3.432e+04   2.53e+04      1.354      0.176   -1.54e+04     8.4e+04
+Job Title_Director of Sales and Marketing        5.431e+04   2.53e+04      2.144      0.032    4642.594    1.04e+05
+Job Title_Event Coordinator                     -3.895e+04   2.19e+04     -1.778      0.075   -8.19e+04    3984.127
+Job Title_Financial Advisor                      3999.6347   2.53e+04      0.158      0.875   -4.57e+04    5.37e+04
+Job Title_Financial Analyst                      6.314e+04   1.81e+04      3.482      0.001    2.76e+04    9.87e+04
+Job Title_Financial Manager                      9.107e+04    1.8e+04      5.064      0.000    5.58e+04    1.26e+05
+Job Title_Front End Developer                    6.238e+04   1.82e+04      3.428      0.001    2.67e+04    9.81e+04
+Job Title_Front end Developer                    6.635e+04   1.79e+04      3.697      0.000    3.12e+04    1.02e+05
+Job Title_Full Stack Engineer                    7.966e+04   1.79e+04      4.440      0.000    4.45e+04    1.15e+05
+Job Title_Graphic Designer                       4.311e+04   1.83e+04      2.354      0.019    7207.816     7.9e+04
+Job Title_HR Generalist                         -3.374e+04   2.19e+04     -1.540      0.124   -7.67e+04    9197.559
+Job Title_HR Manager                            -1.683e+04   2.19e+04     -0.768      0.442   -5.98e+04    2.61e+04
+Job Title_Help Desk Analyst                      -1.23e+04   2.53e+04     -0.487      0.627   -6.19e+04    3.73e+04
+Job Title_Human Resources Coordinator             3.25e+04   1.81e+04      1.796      0.073   -2980.834     6.8e+04
+Job Title_Human Resources Director                3.36e+04   2.53e+04      1.326      0.185   -1.61e+04    8.33e+04
+Job Title_Human Resources Manager                5.671e+04    1.8e+04      3.150      0.002    2.14e+04     9.2e+04
+Job Title_IT Manager                            -2.674e+04   2.53e+04     -1.057      0.290   -7.63e+04    2.28e+04
+Job Title_IT Support                            -1.067e+04   2.53e+04     -0.422      0.673   -6.02e+04    3.89e+04
+Job Title_IT Support Specialist                 -2.733e+04   2.53e+04     -1.081      0.280   -7.69e+04    2.22e+04
+Job Title_Junior Account Manager                -1.553e+04   2.19e+04     -0.709      0.478   -5.85e+04    2.74e+04
+Job Title_Junior Accountant                     -1.794e+04   2.06e+04     -0.869      0.385   -5.84e+04    2.25e+04
+Job Title_Junior Advertising Coordinator        -1.975e+04   2.53e+04     -0.781      0.435   -6.93e+04    2.98e+04
+Job Title_Junior Business Analyst               -1.541e+04    1.9e+04     -0.813      0.417   -5.26e+04    2.18e+04
+Job Title_Junior Business Development Associate -1.835e+04   1.91e+04     -0.960      0.337   -5.58e+04    1.91e+04
+Job Title_Junior Business Operations Analyst    -3.991e+04   2.19e+04     -1.823      0.068   -8.28e+04    3008.473
+Job Title_Junior Copywriter                     -1.826e+04   2.53e+04     -0.722      0.470   -6.78e+04    3.13e+04
+Job Title_Junior Customer Support Specialist    -2.151e+04   2.53e+04     -0.851      0.395   -7.11e+04     2.8e+04
+Job Title_Junior Data Analyst                    3.957e+04   1.83e+04      2.167      0.030    3774.329    7.54e+04
+Job Title_Junior Data Scientist                 -2964.8441   2.53e+04     -0.117      0.907   -5.26e+04    4.67e+04
+Job Title_Junior Designer                       -1.814e+04   2.53e+04     -0.717      0.473   -6.77e+04    3.14e+04
+Job Title_Junior Developer                      -1.035e+04   2.53e+04     -0.409      0.682   -5.99e+04    3.92e+04
+Job Title_Junior Financial Advisor              -5915.1542   2.53e+04     -0.234      0.815   -5.55e+04    4.36e+04
+Job Title_Junior Financial Analyst              -1.486e+04   1.91e+04     -0.778      0.437   -5.23e+04    2.26e+04
+Job Title_Junior HR Coordinator                  2.959e+04   1.82e+04      1.623      0.105   -6149.344    6.53e+04
+Job Title_Junior HR Generalist                   3.381e+04   1.81e+04      1.871      0.061   -1617.057    6.92e+04
+Job Title_Junior Marketing Analyst              -1.286e+04   2.06e+04     -0.623      0.533   -5.33e+04    2.76e+04
+Job Title_Junior Marketing Coordinator          -1.582e+04   1.93e+04     -0.819      0.413   -5.37e+04     2.2e+04
+Job Title_Junior Marketing Manager               4.109e+04   1.81e+04      2.273      0.023    5648.942    7.65e+04
+Job Title_Junior Marketing Specialist           -1.138e+04   1.96e+04     -0.581      0.561   -4.98e+04     2.7e+04
+Job Title_Junior Operations Analyst             -1.645e+04   1.96e+04     -0.840      0.401   -5.48e+04    2.19e+04
+Job Title_Junior Operations Coordinator         -1.918e+04   2.53e+04     -0.759      0.448   -6.87e+04    3.04e+04
+Job Title_Junior Operations Manager             -1.151e+04   2.06e+04     -0.557      0.577    -5.2e+04     2.9e+04
+Job Title_Junior Product Manager                -1.184e+04      2e+04     -0.593      0.553    -5.1e+04    2.73e+04
+Job Title_Junior Project Manager                -1.502e+04   1.96e+04     -0.767      0.443   -5.34e+04    2.34e+04
+Job Title_Junior Recruiter                      -1.722e+04   2.53e+04     -0.681      0.496   -6.68e+04    3.23e+04
+Job Title_Junior Research Scientist               995.8644   2.53e+04      0.039      0.969   -4.87e+04    5.07e+04
+Job Title_Junior Sales Associate                 3.479e+04   1.81e+04      1.927      0.054    -607.808    7.02e+04
+Job Title_Junior Sales Representative            3.255e+04   1.82e+04      1.793      0.073   -3032.491    6.81e+04
+Job Title_Junior Social Media Manager           -1.826e+04   2.53e+04     -0.722      0.470   -6.78e+04    3.13e+04
+Job Title_Junior Social Media Specialist         -1.93e+04   2.53e+04     -0.763      0.445   -6.89e+04    3.03e+04
+Job Title_Junior Software Developer              3.143e+04   1.81e+04      1.739      0.082   -3992.051    6.68e+04
+Job Title_Junior Software Engineer                4.77e+04   1.81e+04      2.638      0.008    1.22e+04    8.32e+04
+Job Title_Junior UX Designer                    -4004.1356   2.53e+04     -0.158      0.874   -5.37e+04    4.57e+04
+Job Title_Junior Web Designer                   -1.871e+04   2.53e+04     -0.740      0.459   -6.83e+04    3.08e+04
+Job Title_Junior Web Developer                   3.693e+04   1.81e+04      2.038      0.042    1414.440    7.25e+04
+Job Title_Juniour HR Coordinator                 4.337e+04   2.07e+04      2.090      0.037    2695.428     8.4e+04
+Job Title_Juniour HR Generalist                  4.598e+04   2.07e+04      2.217      0.027    5313.995    8.66e+04
+Job Title_Marketing Analyst                      5.101e+04    1.8e+04      2.838      0.005    1.58e+04    8.63e+04
+Job Title_Marketing Coordinator                  5.207e+04    1.8e+04      2.898      0.004    1.68e+04    8.73e+04
+Job Title_Marketing Director                     1.117e+05   1.81e+04      6.186      0.000    7.63e+04    1.47e+05
+Job Title_Marketing Manager                      6.524e+04    1.8e+04      3.635      0.000    3.01e+04       1e+05
+Job Title_Marketing Specialist                  -3.621e+04   2.53e+04     -1.432      0.152   -8.58e+04    1.34e+04
+Job Title_Network Engineer                      -4751.7254   2.53e+04     -0.188      0.851   -5.43e+04    4.48e+04
+Job Title_Office Manager                        -5.767e+04   2.53e+04     -2.280      0.023   -1.07e+05   -8092.272
+Job Title_Operations Analyst                    -3.978e+04   2.53e+04     -1.573      0.116   -8.94e+04    9804.792
+Job Title_Operations Director                    5.028e+04   2.53e+04      1.985      0.047     612.548       1e+05
+Job Title_Operations Manager                     5.678e+04    1.8e+04      3.157      0.002    2.15e+04     9.2e+04
+Job Title_Principal Engineer                     5.307e+04   2.53e+04      2.095      0.036    3422.029    1.03e+05
+Job Title_Principal Scientist                     5.23e+04   2.53e+04      2.066      0.039    2665.233    1.02e+05
+Job Title_Product Designer                       4.824e+04    1.8e+04      2.675      0.007    1.29e+04    8.36e+04
+Job Title_Product Manager                        8.567e+04   1.79e+04      4.778      0.000    5.05e+04    1.21e+05
+Job Title_Product Marketing Manager              9642.2229   2.53e+04      0.381      0.703      -4e+04    5.93e+04
+Job Title_Project Engineer                      -2141.8924   2.53e+04     -0.085      0.933   -5.18e+04    4.75e+04
+Job Title_Project Manager                        7.626e+04   1.83e+04      4.165      0.000    4.04e+04    1.12e+05
+Job Title_Public Relations Manager              -5157.5313   2.53e+04     -0.204      0.839   -5.48e+04    4.45e+04
+Job Title_Receptionist                           4.117e+04   1.82e+04      2.267      0.023    5576.468    7.68e+04
+Job Title_Recruiter                             -3.465e+04   2.19e+04     -1.582      0.114   -7.76e+04    8280.563
+Job Title_Research Director                      9.706e+04   1.81e+04      5.374      0.000    6.17e+04    1.32e+05
+Job Title_Research Scientist                     9.595e+04   1.81e+04      5.309      0.000    6.05e+04    1.31e+05
+Job Title_Sales Associate                        4.058e+04   1.81e+04      2.241      0.025    5079.834    7.61e+04
+Job Title_Sales Director                         7.768e+04   1.81e+04      4.302      0.000    4.23e+04    1.13e+05
+Job Title_Sales Executive                        4.242e+04   1.82e+04      2.333      0.020    6775.629    7.81e+04
+Job Title_Sales Manager                          6.491e+04   1.81e+04      3.592      0.000    2.95e+04       1e+05
+Job Title_Sales Operations Manager              -3.161e+04   2.53e+04     -1.250      0.211   -8.12e+04     1.8e+04
+Job Title_Sales Representative                   3.449e+04   1.81e+04      1.901      0.057   -1082.573    7.01e+04
+Job Title_Senior Account Executive              -1.438e+04   2.53e+04     -0.569      0.570    -6.4e+04    3.52e+04
+Job Title_Senior Account Manager                -8590.1322   2.53e+04     -0.340      0.734   -5.82e+04     4.1e+04
+Job Title_Senior Accountant                     -8749.5118   2.19e+04     -0.400      0.689   -5.17e+04    3.42e+04
+Job Title_Senior Business Analyst                2.406e+04   1.88e+04      1.282      0.200   -1.27e+04    6.08e+04
+Job Title_Senior Business Development Manager    1.576e+04      2e+04      0.788      0.431   -2.34e+04    5.49e+04
+Job Title_Senior Consultant                      5.018e+04   2.53e+04      1.981      0.048     531.457    9.98e+04
+Job Title_Senior Data Analyst                    5.003e+04   2.07e+04      2.417      0.016    9459.385    9.06e+04
+Job Title_Senior Data Engineer                   5.879e+04      2e+04      2.934      0.003    1.95e+04    9.81e+04
+Job Title_Senior Data Scientist                   8.41e+04   1.81e+04      4.655      0.000    4.87e+04     1.2e+05
+Job Title_Senior Engineer                        4.031e+04   2.19e+04      1.837      0.066   -2700.973    8.33e+04
+Job Title_Senior Financial Advisor               1.867e+04   2.07e+04      0.902      0.367   -2.19e+04    5.93e+04
+Job Title_Senior Financial Analyst               1.325e+04   1.91e+04      0.693      0.488   -2.42e+04    5.07e+04
+Job Title_Senior Financial Manager               6836.6820   1.96e+04      0.349      0.727   -3.16e+04    4.52e+04
+Job Title_Senior Graphic Designer               -9738.9263   2.53e+04     -0.384      0.701   -5.94e+04    3.99e+04
+Job Title_Senior HR Generalist                   4.305e+04   1.81e+04      2.375      0.018    7523.609    7.86e+04
+Job Title_Senior HR Manager                      2.825e+04   2.07e+04      1.365      0.172   -1.23e+04    6.88e+04
+Job Title_Senior HR Specialist                   1.818e+04   2.53e+04      0.718      0.473   -3.15e+04    6.78e+04
+Job Title_Senior Human Resources Coordinator    -2.017e+04   2.53e+04     -0.798      0.425   -6.97e+04    2.94e+04
+Job Title_Senior Human Resources Manager         4.779e+04   1.81e+04      2.640      0.008    1.23e+04    8.33e+04
+Job Title_Senior Human Resources Specialist      1.051e+04   2.53e+04      0.415      0.678   -3.92e+04    6.02e+04
+Job Title_Senior IT Consultant                   1.744e+04    2.2e+04      0.794      0.427   -2.56e+04    6.05e+04
+Job Title_Senior IT Project Manager              6804.1813   2.53e+04      0.269      0.788   -4.28e+04    5.64e+04
+Job Title_Senior IT Support Specialist          -1.424e+04   2.53e+04     -0.563      0.573   -6.38e+04    3.53e+04
+Job Title_Senior Manager                         5.588e+04   2.19e+04      2.547      0.011    1.29e+04    9.89e+04
+Job Title_Senior Marketing Analyst              -3276.8471   1.89e+04     -0.174      0.862   -4.02e+04    3.37e+04
+Job Title_Senior Marketing Coordinator          -3596.3548   2.06e+04     -0.174      0.862   -4.41e+04    3.69e+04
+Job Title_Senior Marketing Director              6.409e+04   2.53e+04      2.530      0.011    1.44e+04    1.14e+05
+Job Title_Senior Marketing Manager               1.759e+04   1.89e+04      0.932      0.351   -1.94e+04    5.46e+04
+Job Title_Senior Marketing Specialist            4888.3581      2e+04      0.245      0.807   -3.43e+04    4.41e+04
+Job Title_Senior Operations Analyst             -3329.9890   2.19e+04     -0.152      0.879   -4.62e+04    3.96e+04
+Job Title_Senior Operations Coordinator          9541.9640      2e+04      0.477      0.633   -2.96e+04    4.87e+04
+Job Title_Senior Operations Manager              1.174e+04   1.96e+04      0.599      0.549   -2.67e+04    5.01e+04
+Job Title_Senior Product Designer                5.448e+04   1.96e+04      2.774      0.006     1.6e+04     9.3e+04
+Job Title_Senior Product Development Manager     1.579e+04   2.53e+04      0.625      0.532   -3.38e+04    6.53e+04
+Job Title_Senior Product Manager                 1.957e+04   1.93e+04      1.013      0.311   -1.83e+04    5.74e+04
+Job Title_Senior Product Marketing Manager       5.998e+04    1.8e+04      3.323      0.001    2.46e+04    9.54e+04
+Job Title_Senior Project Coordinator            -1.042e+04   1.96e+04     -0.532      0.595   -4.88e+04     2.8e+04
+Job Title_Senior Project Engineer                8.377e+04   1.79e+04      4.668      0.000    4.86e+04    1.19e+05
+Job Title_Senior Project Manager                 5252.8666   1.91e+04      0.275      0.784   -3.22e+04    4.27e+04
+Job Title_Senior Quality Assurance Analyst       6582.0339   2.53e+04      0.260      0.795    -4.3e+04    5.61e+04
+Job Title_Senior Research Scientist              6.682e+04   1.81e+04      3.688      0.000    3.13e+04    1.02e+05
+Job Title_Senior Researcher                      4.332e+04   2.53e+04      1.711      0.087   -6324.110     9.3e+04
+Job Title_Senior Sales Manager                  -9633.4306   2.19e+04     -0.440      0.660   -5.26e+04    3.33e+04
+Job Title_Senior Sales Representative            -1.49e+04   2.19e+04     -0.680      0.496   -5.78e+04     2.8e+04
+Job Title_Senior Scientist                       4.653e+04   2.07e+04      2.249      0.025    5973.063    8.71e+04
+Job Title_Senior Software Architect              2.848e+04   2.53e+04      1.124      0.261   -2.12e+04    7.81e+04
+Job Title_Senior Software Developer               1.76e+04   2.07e+04      0.850      0.395    -2.3e+04    5.82e+04
+Job Title_Senior Software Engineer               7.489e+04    1.8e+04      4.171      0.000    3.97e+04     1.1e+05
+Job Title_Senior Training Specialist            -5405.8059   2.53e+04     -0.213      0.831   -5.51e+04    4.43e+04
+Job Title_Senior UX Designer                     6.072e+04   2.07e+04      2.934      0.003    2.01e+04    1.01e+05
+Job Title_Social M                               2.043e-09   4.63e-09      0.441      0.659   -7.04e-09    1.11e-08
+Job Title_Social Media Man                       7.602e+04   2.53e+04      3.002      0.003    2.64e+04    1.26e+05
+Job Title_Social Media Manager                   4.273e+04   1.85e+04      2.305      0.021    6381.411    7.91e+04
+Job Title_Social Media Specialist               -1.619e+04   2.53e+04     -0.640      0.522   -6.58e+04    3.34e+04
+Job Title_Software Developer                     5.351e+04    1.8e+04      2.976      0.003    1.83e+04    8.88e+04
+Job Title_Software Engineer                      7.274e+04   1.79e+04      4.062      0.000    3.76e+04    1.08e+05
+Job Title_Software Engineer Manager              7.689e+04   1.79e+04      4.284      0.000    4.17e+04    1.12e+05
+Job Title_Software Manager                        1.18e+04   2.53e+04      0.466      0.641   -3.79e+04    6.15e+04
+Job Title_Software Project Manager              -1535.8407   2.53e+04     -0.061      0.952   -5.11e+04     4.8e+04
+Job Title_Strategy Consultant                    1.798e+04   2.53e+04      0.710      0.478   -3.17e+04    6.76e+04
+Job Title_Supply Chain Analyst                  -3.166e+04   2.53e+04     -1.251      0.211   -8.13e+04    1.79e+04
+Job Title_Supply Chain Manager                  -3.454e+04   2.53e+04     -1.365      0.172   -8.41e+04     1.5e+04
+Job Title_Technical Recruiter                   -2.141e+04   2.53e+04     -0.847      0.397    -7.1e+04    2.81e+04
+Job Title_Technical Support Specialist          -1.859e+04   2.53e+04     -0.735      0.462   -6.81e+04     3.1e+04
+Job Title_Technical Writer                      -1.255e+04   2.53e+04     -0.496      0.620   -6.21e+04     3.7e+04
+Job Title_Training Specialist                   -4.438e+04   2.53e+04     -1.755      0.079    -9.4e+04    5192.222
+Job Title_UX Designer                            9423.8636   2.53e+04      0.372      0.710   -4.02e+04    5.91e+04
+Job Title_UX Researcher                          1.395e+04   2.53e+04      0.551      0.582   -3.57e+04    6.36e+04
+Job Title_VP of Finance                          5.724e+04   2.53e+04      2.259      0.024    7564.190    1.07e+05
+Job Title_VP of Operations                       4.724e+04   2.53e+04      1.864      0.062   -2435.810    9.69e+04
+Job Title_Web Developer                          4.379e+04    1.8e+04      2.432      0.015    8487.995    7.91e+04
+==============================================================================
+Omnibus:                      655.604   Durbin-Watson:                   1.030
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2412.866
+Skew:                          -0.455   Prob(JB):                         0.00
+Kurtosis:                       5.799   Cond. No.                     9.09e+19
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 1.03e-33. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
