@@ -1,0 +1,96 @@
+      Age  Gender  ... Years of Experience    Salary
+0      31  Female  ...                 4.0   55000.0
+1      36  Female  ...                 8.0   45000.0
+2      39  Female  ...                10.0   55000.0
+3      33  Female  ...                 5.0  110000.0
+4      26  Female  ...                 3.0   90000.0
+...   ...     ...  ...                 ...       ...
+6683   32    Male  ...                 6.0   80000.0
+6684   25    Male  ...                 2.0   45000.0
+6685   27    Male  ...                 2.0   50000.0
+6686   34    Male  ...                 8.0   90000.0
+6687   30    Male  ...                 4.0   65000.0
+
+[6688 rows x 6 columns]
+========== BASIC INFO ==========
+Shape of dataset: (6688, 6)
+
+Missing values:
+Age                    0
+Gender                 0
+Education Level        1
+Job Title              0
+Years of Experience    1
+Salary                 3
+dtype: int64
+
+Shape after removing missing values: (6684, 6)
+
+========== GENDER COUNT ==========
+Gender
+Male      3671
+Female    3013
+Name: count, dtype: int64
+
+Gender percentage:
+Gender
+Male      54.92
+Female    45.08
+Name: proportion, dtype: float64
+
+========== SALARY SUMMARY BY GENDER ==========
+        count      mean    median       std    min       max
+Gender                                                      
+Female   3013  107889.0  105000.0  52723.61  500.0  220000.0
+Male     3671  121395.7  120000.0  52098.63  350.0  250000.0
+
+========== SALARY SUMMARY BY EDUCATION LEVEL ==========
+                   count       mean    median       std
+Education Level                                        
+PhD                 1369  165651.46  170000.0  34339.75
+Master's Degree     1858  130078.38  130000.0  40649.72
+Bachelor's Degree   3021   95082.91   80000.0  44091.79
+High School          436   34415.61   30000.0  16563.41
+
+========== SALARY SUMMARY BY YEARS OF EXPERIENCE ==========
+                     count       mean    median
+Years of Experience                            
+0.0                    120   29680.23   25000.0
+0.5                      1   35000.00   35000.0
+1.0                    540   46992.85   40000.0
+1.5                     12   36279.17   37500.0
+2.0                    606   58651.65   55000.0
+3.0                    602   72944.41   65000.0
+4.0                    522   83332.09   73916.5
+5.0                    399  103111.09   95000.0
+6.0                    438  111891.15  106193.5
+7.0                    352  122171.04  120000.0
+8.0                    423  126543.63  120000.0
+9.0                    380  138021.46  135000.0
+10.0                   192  131690.32  130000.0
+11.0                   320  153060.32  160000.0
+12.0                   294  153398.06  160000.0
+
+========== CORRELATION ==========
+                       Age  Years of Experience  Salary
+Age                  1.000                0.938   0.728
+Years of Experience  0.938                1.000   0.811
+Salary               0.728                0.811   1.000
+
+========== GENDER x SALARY BAND TABLE ==========
+Salary Band  Q1_Low   Q2   Q3  Q4_High
+Gender                                
+Female          979  705  779      550
+Male            846  847  959     1019
+
+========== MATCHED GROUPS FOR PAIRED t-TEST ==========
+Number of valid matched groups: 171
+
+Summary of paired differences:
+count       171.00
+mean       1615.98
+median        0.00
+std       18474.78
+min      -95666.67
+max       67000.00
+Name: Difference, dtype: float64
